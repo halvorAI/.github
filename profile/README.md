@@ -10,8 +10,8 @@ HalvorAI works after authorization. It is not in the payment path, so it never s
 
 | Repository | What it is | Status |
 | --- | --- | --- |
-| [`ape-schema`](https://github.com/halvorai/ape-schema) | Agent Payment Event (APE) v0.1: an open, rail-neutral JSON Schema for agent payments, with examples and mappings to AP2 mandates, Verifiable Intent, Visa TAP and x402 | Coming soon |
-| [`ingest-js`](https://github.com/halvorai/ingest-js) | `@halvorai/ingest`: TypeScript SDK and CLI. Signs and sends events from Stripe, x402, MPP and MCP payment tools, validates events offline, and verifies evidence packs | Coming soon |
+| [`ape-schema`](https://github.com/halvorai/ape-schema) | Agent Payment Event (APE) v0.1: an open, rail-neutral JSON Schema for agent payments, with examples and mappings to AP2 mandates, Verifiable Intent, Visa TAP and x402 | Live |
+| [`ingest-js`](https://github.com/halvorai/ingest-js) | `@halvorai/ingest`: TypeScript SDK and CLI. Signs and sends events from Stripe, x402, MPP and MCP payment tools, validates events offline, and verifies evidence packs | Live |
 | [`ingest-python`](https://github.com/halvorai/ingest-python) | `halvorai-ingest`: Python SDK | Planned |
 | [`agent-fraud-taxonomy`](https://github.com/halvorai/agent-fraud-taxonomy) | An open taxonomy of how agent payments go wrong: prompt injection, runaway loops, scope drift, hijacked agents, sanctioned payees | Coming soon |
 
