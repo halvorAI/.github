@@ -1,0 +1,43 @@
+# HalvorAI
+
+**We prove what your AI agents spent, on every rail, and hand your bank the evidence.**
+
+HalvorAI records every payment an AI agent makes as a signed, attributed event. Each event names the agent, the owner it acted for, the instruction it followed, and the network proof that came with the payment. We verify those proofs, screen every payee, watch each agent for unusual behaviour, and produce evidence packs a sponsor bank can check offline without trusting us.
+
+HalvorAI works after authorization. It is not in the payment path, so it never slows or blocks a payment.
+
+> **Status: developer preview.** Docs and the event schema are public. The SDK preview is rolling out, and sandbox access goes to early-access teams first.
+
+## Open source
+
+| Repository | What it is | Status |
+| --- | --- | --- |
+| [`ape-schema`](https://github.com/halvorai/ape-schema) | Agent Payment Event (APE) v0.1: an open, rail-neutral JSON Schema for agent payments, with examples and mappings to AP2 mandates, Verifiable Intent, Visa TAP and x402 | Coming soon |
+| [`ingest-js`](https://github.com/halvorai/ingest-js) | `@halvorai/ingest`: TypeScript SDK and CLI. Signs and sends events from Stripe, x402, MPP and MCP payment tools, validates events offline, and verifies evidence packs | Coming soon |
+| [`ingest-python`](https://github.com/halvorai/ingest-python) | `halvorai-ingest`: Python SDK | Planned |
+| [`agent-fraud-taxonomy`](https://github.com/halvorai/agent-fraud-taxonomy) | An open taxonomy of how agent payments go wrong: prompt injection, runaway loops, scope drift, hijacked agents, sanctioned payees | Coming soon |
+
+All code here is Apache-2.0 unless a repository says otherwise.
+
+## Rails
+
+Stripe and Stripe Issuing · x402 · MPP · MCP payment tools · cards (Visa and Mastercard agent tokens) · stablecoins and bank transfers next
+
+## Get started
+
+- **Docs:** [docs.halvorai.com](https://docs.halvorai.com)
+- **Quickstart:** [Send your first event](https://docs.halvorai.com/get-started/quickstart/)
+- **Event schema:** [APE v0.1 reference](https://docs.halvorai.com/schema/)
+- **Early access:** [halvorai.com](https://halvorai.com/?utm_source=github&utm_campaign=org_profile#early-access)
+
+## Contributing
+
+We'd like the event schema to be shared, not ours. If you build agent payments, an agent wallet or a Know Your Agent product, open an issue on `ape-schema` with the fields your rail needs.
+
+## Security
+
+Please report vulnerabilities privately to **hello@halvorai.com**, not in public issues.
+
+---
+
+[Website](https://halvorai.com) · [Docs](https://docs.halvorai.com) · [LinkedIn](https://www.linkedin.com/company/halvorai) · hello@halvorai.com
