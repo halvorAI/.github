@@ -6,8 +6,6 @@ HalvorAI records every payment an AI agent makes as a signed, attributed event. 
 
 HalvorAI works after authorization. It is not in the payment path, so it never slows or blocks a payment.
 
-> **Status: developer preview.** Docs and the event schema are public. The SDK preview is rolling out, and sandbox access goes to early-access teams first.
-
 ## Open source
 
 | Repository | What it is | Status |
